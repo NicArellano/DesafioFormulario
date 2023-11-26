@@ -18,8 +18,7 @@ import { useState } from "react"
             const input = e.target.name
             const value = e.target.value
             setForm({...form , [input]: value})
-            console.log(e.target.name)
-            console.log(e.target.value)
+           
       }
    
       return (
